@@ -41,6 +41,7 @@ class Song
     self.all.sort_by {|song| song.name}
   end
 
+<<<<<<< HEAD
  def self.new_from_filename (filename)
     songFile = filename.split(/[-.]+/)
     song_new = self.new_by_name(songFile[1].strip)
@@ -59,4 +60,12 @@ class Song
     @@all = []
   end
 
+=======
+  def new_from_filename (filename)
+   
+   
+  end
+
+  
+>>>>>>> 22b6e4175ea9994761ed2c2ad487a4caea13f345
 end
